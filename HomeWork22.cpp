@@ -23,6 +23,7 @@ int main() {
 	showArr(a, 10);
 	for (int i = 0; i < 10; i += 2)
 		swap(*(a + i), *(pa + i));
+	cout << "Новый массив:\n";
 	showArr(a, 10);
 
 	cout << "Задача 2.\n";
